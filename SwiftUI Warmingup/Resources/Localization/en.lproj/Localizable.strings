@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  SwiftUI Warmingup
+
+  Created by Minata on 15/10/2024.
+  
+*/
+
+// MARK: Landing
+"get-started-now" = "get started now";
+"take-hold-of-your-finances" = "Take hold of\nyour finances";
+"running-your-finance-easy-with" = "Running your finances is easier with xyz";
+"see-where-your-money-is-going" = "See where your \nmoney is going";
+"stay-on-top-by-effortlessly-tracking" = "Stay on top by effortlessly tracking your subscriptions & bills";
+"reach-your-goal-with-ease" = "Reach your goals with ease";
+"use-the-smart-saving-features-to-manage" = "Use the smart saving features to manage your future goals and needs";
+
+// MARK: Text Field
+"enter-email-address" = "enter your email address";
+"full-name" = "full name";
+"enter-email-address" = "enter email address";
+"password" = "password";
+"confirm-password" = "confirm password";
+"enter-your-location" = "enter your location";
+"enter-your-phone-numebr" = "enter your phone number";
+"choose-your-location" = "enter your location";
+"phone-number" = "phone number";
+
+// MARK: Login
+"login" = "login";
+"forgot-password" = "forgot password";
+"dont-have-an-account" = "dont have an account";
+
+// MARK: Application
+"get-started-now" = "get started now";
+"wallet" = "wallet";
+"next" = "next";
+"skip" = "skip";
+"or" = "or";
+"ive-read-and-agree-with-the-terms" = "I’ve read and agree to the";
+"google" = "google";
+"facebook" = "facebook";
+"send" = "send";
+"email-address" = "email address";
+"terms" = "terms";
+"privacy-policy" = "privacy policy";
+
+// MARK: Register
+"register" = "register";
+"already-have-an-account" = "already have an account";
+"location" = "location";
+"please-enter-your" = "Please enter your";
+"it-seems-everything-is-went-well-and-your-app-is-ready" = "It seems everything went well and\nyour app is ready to work with you";
+"so-we-can-verify-you" = "so we can verify you";
+"choose-your-location" = "choose your location";
+
+// MARK: Verify
+"verify-code" = "verify code";
+"check-your-sms-inbox-we-have-sent" = "Check your SMS inbox,\nwe have sent you the code at";
+"dont-receive-code" = "Didn’t receive a code?";
+"resend-code" = "resend code";
+"this-session-will-end-in" = "This session will end in 60 seconds.";
+"this-session-will-end-in" = "This session will end in 60 seconds.";
+
+// MARK: Forgot Password
+"please-enter-email-or-phonenumber-to-reset-password" = "Please enter your %@ or %@ to reset your password";
+"to-reset-your-password" = "to reset your password";

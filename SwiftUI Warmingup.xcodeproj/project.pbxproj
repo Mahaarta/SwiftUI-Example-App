@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0863B6792CC0F2F100D4CD20 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863B6782CC0F2F100D4CD20 /* BackButton.swift */; };
+		0863B67C2CC0F96100D4CD20 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863B67B2CC0F96100D4CD20 /* RegisterView.swift */; };
+		0863B67E2CC1104200D4CD20 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863B67D2CC1104200D4CD20 /* Checkbox.swift */; };
+		0863B6812CC20D9400D4CD20 /* RegisterVerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863B6802CC20D9400D4CD20 /* RegisterVerifyView.swift */; };
 		08AE69502CBE27ED0049F981 /* SwiftUI_WarmingupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE694F2CBE27ED0049F981 /* SwiftUI_WarmingupApp.swift */; };
 		08AE69522CBE27ED0049F981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE69512CBE27ED0049F981 /* ContentView.swift */; };
 		08AE69542CBE27EE0049F981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69532CBE27EE0049F981 /* Assets.xcassets */; };
 		08AE69572CBE27EE0049F981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69562CBE27EE0049F981 /* Preview Assets.xcassets */; };
+		08AE69752CBE647D0049F981 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE696E2CBE647D0049F981 /* Poppins-Medium.ttf */; };
+		08AE69762CBE647D0049F981 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE696F2CBE647D0049F981 /* Poppins-Thin.ttf */; };
+		08AE69772CBE647D0049F981 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69702CBE647D0049F981 /* Poppins-Light.ttf */; };
+		08AE69782CBE647D0049F981 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69712CBE647D0049F981 /* Poppins-Bold.ttf */; };
+		08AE69792CBE647D0049F981 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69722CBE647D0049F981 /* Poppins-Regular.ttf */; };
+		08AE697A2CBE647D0049F981 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69732CBE647D0049F981 /* Poppins-Italic.ttf */; };
+		08AE697B2CBE647D0049F981 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE69742CBE647D0049F981 /* Poppins-SemiBold.ttf */; };
+		08AE697E2CBE652A0049F981 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE697D2CBE652A0049F981 /* Font.swift */; };
+		08AE69802CBE67DE0049F981 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE697F2CBE67DD0049F981 /* Localization.swift */; };
+		08B84A052CBE69A00027EE04 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A042CBE69A00027EE04 /* ImageAssets.swift */; };
+		08B84A082CBE6D4D0027EE04 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A072CBE6D4D0027EE04 /* LandingView.swift */; };
+		08B84A0C2CBE71C00027EE04 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08B84A0A2CBE71C00027EE04 /* Localizable.strings */; };
+		08B84A0E2CBE724B0027EE04 /* StructLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A0D2CBE724B0027EE04 /* StructLocalization.swift */; };
+		08B84A142CBF73F70027EE04 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A132CBF73F70027EE04 /* LoginView.swift */; };
+		08B84A172CBF741F0027EE04 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A162CBF741F0027EE04 /* OnboardView.swift */; };
+		08B84A1B2CBFB2750027EE04 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A1A2CBFB2750027EE04 /* WelcomeView.swift */; };
+		08B84A1D2CBFDAAF0027EE04 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A1C2CBFDAAF0027EE04 /* TextFieldCustom.swift */; };
+		08B84A202CC0C8670027EE04 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B84A1F2CC0C8670027EE04 /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0863B6782CC0F2F100D4CD20 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		0863B67B2CC0F96100D4CD20 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0863B67D2CC1104200D4CD20 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		0863B6802CC20D9400D4CD20 /* RegisterVerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVerifyView.swift; sourceTree = "<group>"; };
 		08AE694C2CBE27ED0049F981 /* SwiftUI Warmingup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Warmingup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AE694F2CBE27ED0049F981 /* SwiftUI_WarmingupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WarmingupApp.swift; sourceTree = "<group>"; };
 		08AE69512CBE27ED0049F981 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08AE69532CBE27EE0049F981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AE69562CBE27EE0049F981 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08AE696E2CBE647D0049F981 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		08AE696F2CBE647D0049F981 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		08AE69702CBE647D0049F981 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		08AE69712CBE647D0049F981 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		08AE69722CBE647D0049F981 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		08AE69732CBE647D0049F981 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		08AE69742CBE647D0049F981 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		08AE697C2CBE648B0049F981 /* SwiftUI-Warmingup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Warmingup-Info.plist"; sourceTree = SOURCE_ROOT; };
+		08AE697D2CBE652A0049F981 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		08AE697F2CBE67DD0049F981 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		08B84A042CBE69A00027EE04 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
+		08B84A072CBE6D4D0027EE04 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		08B84A0B2CBE71C00027EE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08B84A0D2CBE724B0027EE04 /* StructLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructLocalization.swift; sourceTree = "<group>"; };
+		08B84A132CBF73F70027EE04 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		08B84A162CBF741F0027EE04 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		08B84A1A2CBFB2750027EE04 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		08B84A1C2CBFDAAF0027EE04 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		08B84A1F2CC0C8670027EE04 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0863B67A2CC0F95900D4CD20 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				0863B67B2CC0F96100D4CD20 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		0863B67F2CC20D7A00D4CD20 /* Register Verify  */ = {
+			isa = PBXGroup;
+			children = (
+				0863B6802CC20D9400D4CD20 /* RegisterVerifyView.swift */,
+			);
+			path = "Register Verify ";
+			sourceTree = "<group>";
+		};
 		08AE69432CBE27ED0049F981 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +112,15 @@
 		08AE694E2CBE27ED0049F981 /* SwiftUI Warmingup */ = {
 			isa = PBXGroup;
 			children = (
+				08AE697C2CBE648B0049F981 /* SwiftUI-Warmingup-Info.plist */,
+				08AE69652CBE29380049F981 /* Data */,
+				08AE695F2CBE28010049F981 /* Models */,
+				08AE695D2CBE27F60049F981 /* Views */,
+				08AE695E2CBE27FD0049F981 /* View Models */,
+				08AE69602CBE28340049F981 /* Utilities */,
+				08AE696B2CBE60760049F981 /* Resources */,
 				08AE694F2CBE27ED0049F981 /* SwiftUI_WarmingupApp.swift */,
 				08AE69512CBE27ED0049F981 /* ContentView.swift */,
-				08AE69532CBE27EE0049F981 /* Assets.xcassets */,
 				08AE69552CBE27EE0049F981 /* Preview Content */,
 			);
 			path = "SwiftUI Warmingup";
@@ -65,6 +132,167 @@
 				08AE69562CBE27EE0049F981 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08AE695D2CBE27F60049F981 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0863B67F2CC20D7A00D4CD20 /* Register Verify  */,
+				0863B67A2CC0F95900D4CD20 /* Register */,
+				08B84A1E2CC0C8570027EE04 /* Forgot Password */,
+				08B84A152CBF740E0027EE04 /* Onboard  */,
+				08B84A122CBF73F10027EE04 /* Login */,
+				08B84A062CBE6D3B0027EE04 /* Landing  */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08AE695E2CBE27FD0049F981 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		08AE695F2CBE28010049F981 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		08AE69602CBE28340049F981 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				08AE696A2CBE29860049F981 /* Extensions */,
+				08AE697D2CBE652A0049F981 /* Font.swift */,
+				08AE697F2CBE67DD0049F981 /* Localization.swift */,
+				08B84A042CBE69A00027EE04 /* ImageAssets.swift */,
+				08B84A1C2CBFDAAF0027EE04 /* TextFieldCustom.swift */,
+				0863B6782CC0F2F100D4CD20 /* BackButton.swift */,
+				0863B67D2CC1104200D4CD20 /* Checkbox.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		08AE69652CBE29380049F981 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				08AE69692CBE296F0049F981 /* Data Sources */,
+				08AE69682CBE29520049F981 /* Network */,
+				08AE69672CBE294D0049F981 /* Repositories */,
+				08AE69662CBE293E0049F981 /* Shared */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		08AE69662CBE293E0049F981 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		08AE69672CBE294D0049F981 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		08AE69682CBE29520049F981 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		08AE69692CBE296F0049F981 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		08AE696A2CBE29860049F981 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		08AE696B2CBE60760049F981 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A092CBE70C90027EE04 /* Localization */,
+				08AE696D2CBE643F0049F981 /* Font */,
+				08AE696C2CBE60820049F981 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08AE696C2CBE60820049F981 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				08AE69532CBE27EE0049F981 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		08AE696D2CBE643F0049F981 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				08AE696F2CBE647D0049F981 /* Poppins-Thin.ttf */,
+				08AE69702CBE647D0049F981 /* Poppins-Light.ttf */,
+				08AE69722CBE647D0049F981 /* Poppins-Regular.ttf */,
+				08AE696E2CBE647D0049F981 /* Poppins-Medium.ttf */,
+				08AE69742CBE647D0049F981 /* Poppins-SemiBold.ttf */,
+				08AE69712CBE647D0049F981 /* Poppins-Bold.ttf */,
+				08AE69732CBE647D0049F981 /* Poppins-Italic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		08B84A062CBE6D3B0027EE04 /* Landing  */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A072CBE6D4D0027EE04 /* LandingView.swift */,
+			);
+			path = "Landing ";
+			sourceTree = "<group>";
+		};
+		08B84A092CBE70C90027EE04 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A0A2CBE71C00027EE04 /* Localizable.strings */,
+				08B84A0D2CBE724B0027EE04 /* StructLocalization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		08B84A122CBF73F10027EE04 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A132CBF73F70027EE04 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		08B84A152CBF740E0027EE04 /* Onboard  */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A162CBF741F0027EE04 /* OnboardView.swift */,
+				08B84A1A2CBFB2750027EE04 /* WelcomeView.swift */,
+			);
+			path = "Onboard ";
+			sourceTree = "<group>";
+		};
+		08B84A1E2CC0C8570027EE04 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				08B84A1F2CC0C8670027EE04 /* ForgotPasswordView.swift */,
+			);
+			path = "Forgot Password";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +337,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 08AE69432CBE27ED0049F981;
 			productRefGroup = 08AE694D2CBE27ED0049F981 /* Products */;
@@ -125,6 +354,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AE69752CBE647D0049F981 /* Poppins-Medium.ttf in Resources */,
+				08AE69782CBE647D0049F981 /* Poppins-Bold.ttf in Resources */,
+				08AE697A2CBE647D0049F981 /* Poppins-Italic.ttf in Resources */,
+				08AE69792CBE647D0049F981 /* Poppins-Regular.ttf in Resources */,
+				08AE69772CBE647D0049F981 /* Poppins-Light.ttf in Resources */,
+				08B84A0C2CBE71C00027EE04 /* Localizable.strings in Resources */,
+				08AE69762CBE647D0049F981 /* Poppins-Thin.ttf in Resources */,
+				08AE697B2CBE647D0049F981 /* Poppins-SemiBold.ttf in Resources */,
 				08AE69572CBE27EE0049F981 /* Preview Assets.xcassets in Resources */,
 				08AE69542CBE27EE0049F981 /* Assets.xcassets in Resources */,
 			);
@@ -137,12 +374,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B84A082CBE6D4D0027EE04 /* LandingView.swift in Sources */,
+				08B84A1D2CBFDAAF0027EE04 /* TextFieldCustom.swift in Sources */,
+				08B84A052CBE69A00027EE04 /* ImageAssets.swift in Sources */,
+				0863B67C2CC0F96100D4CD20 /* RegisterView.swift in Sources */,
+				08B84A0E2CBE724B0027EE04 /* StructLocalization.swift in Sources */,
 				08AE69522CBE27ED0049F981 /* ContentView.swift in Sources */,
 				08AE69502CBE27ED0049F981 /* SwiftUI_WarmingupApp.swift in Sources */,
+				08B84A1B2CBFB2750027EE04 /* WelcomeView.swift in Sources */,
+				08B84A172CBF741F0027EE04 /* OnboardView.swift in Sources */,
+				0863B6812CC20D9400D4CD20 /* RegisterVerifyView.swift in Sources */,
+				08AE69802CBE67DE0049F981 /* Localization.swift in Sources */,
+				08B84A142CBF73F70027EE04 /* LoginView.swift in Sources */,
+				08B84A202CC0C8670027EE04 /* ForgotPasswordView.swift in Sources */,
+				0863B6792CC0F2F100D4CD20 /* BackButton.swift in Sources */,
+				08AE697E2CBE652A0049F981 /* Font.swift in Sources */,
+				0863B67E2CC1104200D4CD20 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08B84A0A2CBE71C00027EE04 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B84A0B2CBE71C00027EE04 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		08AE69582CBE27EE0049F981 /* Debug */ = {
@@ -197,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,6 +537,7 @@
 				DEVELOPMENT_TEAM = 3HGJV364P5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Warmingup-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +567,7 @@
 				DEVELOPMENT_TEAM = 3HGJV364P5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Warmingup-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

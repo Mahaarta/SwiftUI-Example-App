@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_WarmingupApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }
